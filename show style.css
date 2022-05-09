@@ -1,0 +1,131 @@
+﻿body {
+    background-color: #171717;
+    color: #F5E8DA;
+    padding-top: 50px;
+}
+.ulnavbar {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #BA55D3;
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+}
+
+li a {
+    font-size: large;
+    display: block;
+    color: #F5E8DA;
+    text-align: center;
+    padding: 16px 20px;
+    float: left;
+    text-decoration: none;
+}
+
+    li a:hover {
+        background-color: black;
+    }
+
+.active {
+    color: #F5E8DA;
+    background-color: #340744;
+}
+.showname {
+    text-align: left;
+    font-size: xx-large;
+    color: #ccebff;
+    text-shadow:1px 1px white;
+}
+.showbio {
+    text-align: left;
+    margin:1%;
+    font-size: large;
+}
+.imgbackground {
+    background-image: url("thrones-cast.jpg");
+    background-repeat: no-repeat;
+    background-position:center top ;
+    background-size: 100%;
+    background-position-y:-15em;
+    
+}
+.imgbackground-emilly {
+    background-image: url("emily\ back.jpg");
+    background-repeat: no-repeat;
+    background-position:center top 4% ;
+    background-size: 100%;    
+}
+.div1 {
+    padding-top: 1.5%;
+    float: left;
+    font-size: large;
+}
+.list {
+    width: 10%;
+    border-radius: 5px;
+    margin: 1%;
+    text-align: center;
+    padding: 0.25%;
+    float: left;
+    list-style-type:none;
+
+}
+.castimg {
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+}
+.cast {
+    margin: 1%;
+    list-style-type: none;
+    display: inline;
+    padding: 30px;
+    float:left;
+    text-align: center;
+}
+.casttext{
+    font-size:large;
+}
+.vd {
+    margin-left: 25%;
+    width: 50%;
+    position:unset;
+}
+.posterimg{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 30pt;
+}
+.posterimg-emily{
+    display: block;
+    margin-left: 0%;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 30pt;
+    margin-top: 3%;
+}
+#id{
+    color:#BA55D3;
+}
+.button{
+    background-color: #340744;
+    color:#F5E8DA;
+}
+.button :hover{
+    background-color:black;
+}
+.showdetails{
+    margin-left: 0%;
+    text-align: left;
+    font-size: large;
+    color: #F5E8DA;
+    font-size: x-large;
+}
+.pb{
+    margin: 3%;
+}
