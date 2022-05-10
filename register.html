@@ -4,7 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Registration</title>
+		<script>
+function myFunction() {
+  alert("error\nregisteration get will soon");
+}
+</script>
 	<style>
+
     h2{
 
 		
@@ -16,7 +22,7 @@
               text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
              }
                    .fc{  
-                    	      color: #e63900;
+                    	      color:#a20fc6;
       
       		 	  	font-family: Cursive;
 
@@ -34,7 +40,7 @@
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color: #e63900;
+  background-color: #a20fc6;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
@@ -45,7 +51,7 @@
     margin: 0px;
     padding: 0px;
     overflow: hidden;
-    background-color: #e63900;
+    background-color: #a20fc6;
     position:fixed;
     top: 0px;
     width: 100%;
@@ -109,7 +115,7 @@ top: 25%;
 <label  style="font-size:x-large ;" class="fc">Gender</label><br>
 <input  style="font-size:x-large ;" type="radio" ><label class="fc">male</label><br>
  <input  style="font-size:x-large ;" type="radio" ><label class="fc">female</label><br>
-                         	       <button type="submit"  class="button"> Register </button><br>
+                         	       <button type="submit"  class="button"onclick="myFunction()"> Register </button><br>
 
                      <label class="fc">if you have account you can </label> <a href="log in.html"class="fc" >Log In </a>
 		</form>
